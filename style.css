@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.flexible-container{
+    display: flex;
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+h1{
+    font-size: 50px;
+}
+h1 span{
+    color: orangered;
+}
+.half-width img{
+    width: 75%;
+    
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+p{
+    color: dimgray;
+}
+.mid-area{
+    background-image: url(images/Frame\ 59.jpg);
+    background-repeat: no-repeat;  
+    background-position: center;
+    
+}
+.half-width img{width: 50%;}
+h2{
+    font-size: 40px;
+}
+.recipies-area{
+    background-position: left;
+    border-radius: 10px;
+
+}
+#rec{text-align: center}
+.recipies-area h3{
+    color: orange;
+}
+#Jimmy-Dean{
+    
+  border-image-slice: 1;
+    border-radius: 20px;
+}
+#veg{
+    border-image-slice: 1;
+    border-radius: 20px;
+}
+#soup{
+    border-image-slice: 1;
+    border-radius: 20px;
+}
+footer p{
+    text-align: center;
+}
